@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+h1 {
+    font-size: 3.1rem;
+}
+p {
+    font-size: 1.7rem;
+}
+
+nav ul  a img {
+    width: 70px;
+}
+nav ul {
+    display: flex;
+    min-height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+nav ul li {
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: orange;
+}
+
+ul li a:hover {
+    color: white;
+    transition: all 0.5s ease;
+}
+/* .play-btn {
+    max-width: 20%;
+    margin: auto;
+} */
+.container {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(226, 154, 19);
+    background-image: url('image/dal-3396109_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.play-btn  i {
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.play-btn i:hover{
+    background-color: red;
+    transition: all 0.7s ease;
+}
+
+.container h1 {
+    font-weight: lighter;
+    color: white;
+
+}
+.container p {
+    color: white;
+    margin: 4rem;
+}
+/* intro section  */
+
+#intro {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.intro-img img{
+    width: 100%;
+
+
+}
+.intro-img{
+    flex: 1 1 10rem;
+    background: lightblue;
+
+}
+
+.intro-text {
+    flex: 1 1 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #FF512F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+
+
+}
+.intro-text p {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    
+
+}
